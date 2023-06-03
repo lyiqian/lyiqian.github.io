@@ -2,10 +2,11 @@ project:
   type: website
 
 website:
-  title: "blog"
+  title: "Yiqian Liu"
   navbar:
+    left:
+      - blog.qmd
     right:
-      - about.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
