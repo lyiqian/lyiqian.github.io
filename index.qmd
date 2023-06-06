@@ -1,9 +1,10 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Yiqian Liu"
+image: profile.jpg  # TODO
 about:
-  template: jolla
+  template: trestles
   links:
+    - text: TODO CV
     - icon: github
       text: Github
       href: https://github.com/lyiqian
@@ -17,3 +18,18 @@ about:
 ---
 
 TODO short bio
+
+
+# Education
+**MSc in Computer Science** $\cdot$ University of New Brunswick
+
+Sep 2013 - May 2016 $\cdot$ Fredericton, Canada
+
+**BSc in Mathematics** $\cdot$ Shandong University
+
+Sep 2009 - Jun 2013 $\cdot$ Jinan, China
+
+# Experience
+**Data Scientist** $\cdot$ NuData Security $\cdot$ Mar 2022 - Jun 2023
+
+**Data Scientist** $\cdot$ Fortinet $\cdot$ May 2017 - Feb 2022
