@@ -1,6 +1,6 @@
 ---
 title: "Yiqian Liu"
-image: profile.jpg  # TODO
+image: static/img/profile.jpg  # TODO
 about:
   template: trestles
   links:
