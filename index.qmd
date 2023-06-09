@@ -1,10 +1,12 @@
 ---
 title: "Yiqian Liu"
-image: profile.jpg  # TODO
+image: static/img/profile.jpg  # TODO
 about:
   template: trestles
   links:
-    - text: TODO CV
+    - text: CV
+      icon: file-earmark-pdf-fill
+      href: static/cv-public.pdf
     - icon: github
       text: Github
       href: https://github.com/lyiqian
@@ -17,7 +19,15 @@ about:
 
 ---
 
-TODO short bio
+I am interested in visual stuff, including (first seen first)
+
+- geometry,
+- data visualization (e.g. isolines),
+- photography,
+- computer graphics, and
+- computer vision (e.g. object detection).
+
+Bridge is my favorite hobby which is not so visual.
 
 
 # Education
@@ -28,6 +38,7 @@ Sep 2013 - May 2016 $\cdot$ Fredericton, Canada
 **BSc in Mathematics** $\cdot$ Shandong University
 
 Sep 2009 - Jun 2013 $\cdot$ Jinan, China
+
 
 # Experience
 **Data Scientist** $\cdot$ NuData Security $\cdot$ Mar 2022 - Jun 2023
