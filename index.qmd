@@ -4,7 +4,9 @@ image: static/img/profile.jpg  # TODO
 about:
   template: trestles
   links:
-    - text: TODO CV
+    - text: CV
+      icon: file-earmark-pdf-fill
+      href: static/cv-public.pdf
     - icon: github
       text: Github
       href: https://github.com/lyiqian
