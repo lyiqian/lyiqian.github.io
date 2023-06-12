@@ -1,0 +1,51 @@
+---
+title: "Longman Communication 3000 with Examples"
+date: "2023-06-12"
+categories: [writing, foundation, code]
+format:
+  html:
+    code-fold: true
+jupyter: python3
+
+draft: true
+---
+
+Longman Communication 3000 is a list of most frequently used words in spoken or written English.
+
+> ... by knowing this list of words, a learner of English is in a position to understand
+86% or more of what he or she reads.
+
+Each word has one or two of the six frequency tags: S1, S2, S3, W1, W2, and W3. W3 indicates a word
+is among the top 3000 most used words in written English, and S2 top 2000 spoken.
+
+I have extracted the words from [this PDF file](longman3000.pdf), and enhanced them with example
+sentences. By giving foundational examples, the hope is to enable non-native speakers, like myself,
+to understand and use simple words.
+
+Listed below are the 3000 words ordered alphabetically with their tags. Example sentences, synonyms,
+and antonyms are also provided if there is any. Believing the synonyms and examples would be enough
+to understand a word, I intentionally left out the formal definitions. Feel free to lookup, or just
+read through them to see if you missed any!
+
+- [a, b, c](#sec-abc)
+- ...
+
+
+## a, b, c {#sec-abc}
+
+```{python}
+import pandas as pd
+
+FIRST_LETTERS = {'a', 'b', 'c'}
+
+lm3k = pd.read_json('longman3000_sentences.json')
+
+with pd.option_context("display.max_rows", None):
+    display(
+        lm3k
+            .loc[
+                lm3k.word.str.slice(0, 1).isin(FIRST_LETTERS),
+                ["word", "wtypes", "freqs", "example"]]
+    )
+
+```
