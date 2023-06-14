@@ -2,22 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lyiqian.github.io/blog.html</loc>
-    <lastmod>2023-06-03T18:45:51.031Z</lastmod>
+    <lastmod>2023-06-14T14:40:07.859Z</lastmod>
   </url>
   <url>
-    <loc>https://lyiqian.github.io/posts/welcome/index.html</loc>
-    <lastmod>2023-06-03T18:45:51.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lyiqian.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2023-06-03T18:45:51.339Z</lastmod>
+    <loc>https://lyiqian.github.io/posts/hello_with_quarto/index.html</loc>
+    <lastmod>2023-06-14T14:40:08.531Z</lastmod>
   </url>
   <url>
     <loc>https://lyiqian.github.io/index.html</loc>
-    <lastmod>2023-06-03T18:45:51.483Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lyiqian.github.io/examples/hello.html</loc>
-    <lastmod>2023-06-03T18:45:54.479Z</lastmod>
+    <lastmod>2023-06-14T14:41:14.324Z</lastmod>
   </url>
 </urlset>

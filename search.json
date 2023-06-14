@@ -4,41 +4,27 @@
     "href": "blog.html",
     "title": "blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 3, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 31, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello with Quarto\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/hello_with_quarto/index.html",
+    "href": "posts/hello_with_quarto/index.html",
+    "title": "Hello with Quarto",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/hello_with_quarto/index.html#polar-axis",
+    "href": "posts/hello_with_quarto/index.html#polar-axis",
+    "title": "Hello with Quarto",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About",
+    "title": "Yiqian Liu",
     "section": "",
-    "text": "TODO short bio"
-  },
-  {
-    "objectID": "examples/hello.html",
-    "href": "examples/hello.html",
-    "title": "Quarto Basics",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "examples/hello.html#polar-axis",
-    "href": "examples/hello.html#polar-axis",
-    "title": "Quarto Basics",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "I am interested in visual stuff, including (first seen first)\n\ngeometry,\ndata visualization (e.g. isolines),\nphotography,\ncomputer graphics, and\ncomputer vision (e.g. object detection).\n\nBridge is my favorite hobby which is not so visual.\n\nEducation\nMSc in Computer Science \\(\\cdot\\) University of New Brunswick\nSep 2013 - May 2016 \\(\\cdot\\) Fredericton, Canada\nBSc in Mathematics \\(\\cdot\\) Shandong University\nSep 2009 - Jun 2013 \\(\\cdot\\) Jinan, China\n\n\nExperience\nData Scientist \\(\\cdot\\) NuData Security \\(\\cdot\\) Mar 2022 - Jun 2023\nData Scientist \\(\\cdot\\) Fortinet \\(\\cdot\\) May 2017 - Feb 2022\nSoftware Developer \\(\\cdot\\) IBM \\(\\cdot\\) Jan 2015 - Aug 2015"
   }
 ]
