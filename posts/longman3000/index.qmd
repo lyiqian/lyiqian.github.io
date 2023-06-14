@@ -6,6 +6,8 @@ format:
   html:
     code-fold: true
 jupyter: python3
+execute:
+  echo: false
 
 draft: true
 ---
@@ -27,25 +29,124 @@ and antonyms are also provided if there is any. Believing the synonyms and examp
 to understand a word, I intentionally left out the formal definitions. Feel free to lookup, or just
 read through them to see if you missed any!
 
-- [a, b, c](#sec-abc)
-- ...
+- [a, b](#sec-ab)
+- [c, d](#sec-cd)
+- [e, f, g](#sec-efg)
+- [h, i, j, k, l](#sec-hijkl)
+- [m, n, o](#sec-mno)
+- [p, q, r](#sec-pqr)
+- [s, t, u, v](#sec-stuv)
+- [w, y, z](#sec-wyz)
 
-
-## a, b, c {#sec-abc}
 
 ```{python}
+#| echo: true
 import pandas as pd
 
-FIRST_LETTERS = {'a', 'b', 'c'}
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_colwidth', None)
 
-lm3k = pd.read_json('longman3000_sentences.json')
+def _extract_val(def_, key):
+    if not def_:
+        return None
+    return def_[key] or None
 
-with pd.option_context("display.max_rows", None):
-    display(
-        lm3k
-            .loc[
-                lm3k.word.str.slice(0, 1).isin(FIRST_LETTERS),
-                ["word", "wtypes", "freqs", "example"]]
+lm3k = (
+    pd.read_json('longman3000_sentences.json')
+        .explode('defs').reset_index(drop=True)
+        .assign(synonyms=lambda df: df.defs.apply(_extract_val, key='synonyms').str.join(', '),
+                examples=lambda df: df.defs.apply(_extract_val, key='example'),
+                freqs=lambda df: df.freqs.str.join(', '))
+        .fillna('-')
+        .rename(columns={'wtypes': 'class'})
+        .rename(columns=lambda s: s.title())
+)
+
+def format_table(lm3k, initials):
+    return (
+        lm3k.loc[lm3k.Word.str.slice(0, 1).isin(initials),
+                 ["Word", "Freqs", "Class", "Synonyms", "Examples"]]
+            .set_index(["Word", "Freqs", "Class"]).sort_index(key=lambda s: s.str.lower())
+            .style
+            .set_table_styles([
+                {'selector': 'td', 'props': [('text-align', 'left')]},
+                {'selector': 'th', 'props': [('text-align', 'left')]},
+            ])
+            .set_table_styles({
+                'Synonyms': [{'selector': 'td', 'props': [('width', '100px'), ('overflow', 'hidden')]}],
+                'Examples': [{'selector': 'td', 'props': [('width', '500px'), ('overflow', 'hidden')]}],
+            }, overwrite=False)
     )
+```
 
+
+## a, b {#sec-ab}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'a', 'b'}))
+```
+
+
+## c, d {#sec-cd}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'c', 'd'}))
+```
+
+
+## e, f, g {#sec-efg}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'e', 'f', 'g'}))
+```
+
+
+## h, i, j, k, l {#sec-hijkl}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'h', 'i', 'j', 'k', 'l'}))
+```
+
+
+## m, n, o {#sec-mno}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'m', 'n', 'o'}))
+```
+
+
+## p, q, r {#sec-pqr}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'p', 'q', 'r'}))
+```
+
+
+## s, t, u, v {#sec-stuv}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'s', 't', 'u', 'v'}))
+```
+
+
+## w, y, z {#sec-wyz}
+```{python}
+#| column: body-outset
+import pandas as pd
+
+display(format_table(lm3k, {'w', 'y', 'z'}))
 ```
