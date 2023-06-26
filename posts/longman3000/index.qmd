@@ -10,8 +10,6 @@ execute:
   echo: false
   freeze: auto
   cache: true
-
-draft: true
 ---
 
 Longman Communication 3000 is a list of most frequently used words in spoken or written English.
