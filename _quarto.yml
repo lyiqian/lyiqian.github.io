@@ -11,6 +11,11 @@ website:
     right:
       - icon: github
         href: https://github.com/lyiqian
+  comments:
+    utterances:
+      repo: lyiqian/lyiqian-github.io
+      label: comment
+
 format:
   html:
     theme: cosmo

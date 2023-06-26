@@ -17,6 +17,7 @@ about:
     #   text: Twitter
     #   href: https://twitter.com
 
+comments: false
 ---
 
 I am interested in visual stuff, including (first seen first)
