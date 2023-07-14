@@ -12,9 +12,8 @@ website:
       - icon: github
         href: https://github.com/lyiqian
   comments:
-    utterances:
+    giscus:
       repo: lyiqian/lyiqian.github.io
-      label: comment
 
 format:
   html:
