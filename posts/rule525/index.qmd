@@ -1,12 +1,12 @@
 ---
 title: "Rule of 5-2-5"
-date: "2023-07-xx"
-categories: [self-improvement]
+date: "2023-07-31"
+categories: [self-improvement, do, know-myself, psychology]
 draft: True
 ---
 
 I usually have somewhat high standards for myself
-(and sometimes for people around me which is not good!).
+(and sometimes also for people around me which does not usually result in a great ending).
 It does not make me happy to relax too much,
 as I felt I was wasting time and I could have achieved more.
 Being very productive, however,
@@ -14,15 +14,30 @@ is only possible if the motivation-to-procrastination ratio is right.
 A balance needs to be reached.
 So I gradually figured out this Rule of 5-2-5, a combination of techniques working for my self-improvement.
 
-Priority. The first 5 of 5-2-5 stands for your 5 most important goals.
+About priority, the first 5 of 5-2-5 stands for your 5 most important goals.
 These could be long-term or medium-term.
-To really know what the five most important things to you,
-you have to know *yourself* first. What matters the most? Family/Friendship/Health/Spirit/Relaxation/Career/Wealth/...? This one is the toughest sub-rule of the three,
+To really know the five most important things to you,
+you need to know *yourself* first. What matters the most? Family/Friendship/Health/Spirit/Relaxation/Career/Wealth/...? This one is the toughest sub-rule of the three for me,
 as the goals (i.e. yourself) might change over time therefore require constant exploration.
 
-Routine. The 2 means [Top-2-do](#TBD).
+About productivity, the 2 means Top-2-do.
+Before bed, write down a mini to-do list with only two items.
+The next day, you will get these two items done. No excuse.
+This should help achieve your identified goals above.
+I found that a good to-do item is something taking half to two hours.
+For example, my Top-2-do for today was:
 
-Action. The last 5 tells me to just do it for 5 minutes.
+- [ ] Math (short for "read Math textbook")
+- [ ] blog (short for "write my next blog post")
+
+About action, the last 5 tells me to just do it for 5 minutes. This one fixed my procrastination.
+Starting something is hard. Thinking about starting something before starting it is even harder.
+I understood.
+But it pays to just temporarily shift the attention away from those negative emotions,
+and make the reluctant me sit down. I promise myself I would do it for only 5 minutes.
+Sometimes I even start a timer to reassure myself it won't take long.
+Then, pull one item from the Top-2-do list and work on it.
+What happens next is almost like a [chain reaction](https://en.wikipedia.org/wiki/Nuclear_chain_reaction).
 
 Give it a go!
 Just do it for 5 minutes, for each of the Top-2-do everyday, guided by your 5 most important goals.
