@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/intro_bidly/index.html",
       "/posts/rule525/index.html",
       "/posts/longman3000/index.html",
       "/posts/hello_with_quarto/index.html"
