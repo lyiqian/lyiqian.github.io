@@ -3,6 +3,8 @@ title: "Introducing Bidly: Bridge Hand Recognizer & Solver"
 date: "2023-09-25"
 categories: [bridge]
 
+image: thumbnail.png
+fig-width: 400
 fig-cap-location: margin
 ---
 
