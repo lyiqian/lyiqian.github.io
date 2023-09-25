@@ -1,0 +1,31 @@
+---
+title: "Introducing Bidly: Bridge Hand Recognizer & Solver"
+date: "2023-09-25"
+categories: [bridge]
+
+fig-cap-location: margin
+---
+
+Bidly is a mobile app (only on Android for now) I built for contract bridge lovers.
+By taking a photo of a complete bridge hand, it recognizes all 52 cards and
+assigns them to four players based on card locations.
+Then, the highest contract for each player is solved by a Double Dummy Solver.
+
+The following screenshots should be self-explanatory.
+
+![Taking a photo](screen1.png)
+
+![Manual assignment (not always needed)](screen2.png)
+
+![Results](screen4.png)
+
+![Text-only results](screen3.png)
+
+
+
+### Limitations & Known Issues
+For now, bidly has difficulties
+
+- recognizing cards with non-standard symbols;
+- recognizing cards when the lighting condition is not ideal;
+- recognizing cards when they are too far away from the camera.
