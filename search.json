@@ -93,16 +93,16 @@
   {
     "objectID": "posts/dualsys_reloc_disk/index.html",
     "href": "posts/dualsys_reloc_disk/index.html",
-    "title": "Relocating Disk Space from Windows to Linux",
+    "title": "Reassign Disk Space from Windows to Linux",
     "section": "",
-    "text": "df command after mounting the new partition\n\n\nI have been using a dual system of Windows and Ubuntu, and recently running out of storage space on Ubuntu. This gave me various issues including occasionally failure to recover from sleep.\nSurely, there was already some answers addressing this matter.\nThese were useful but an error about swapfile.sys occurred when I tried Shrink Volume in Windows’ Disk Management. It turned out that swapfile.sys (and pagefile.sys) can be disabled and deleted, according to these articles. Not using Windows very often nowadays, I am happy to remove them.\nIf I remembered correctly, I followed these steps to relocate some disk space from Windows to Ubuntu:\n\ndisable and delete pagefile.sys (see steps here);\nnow delete swapfile.sys (refer to here);\nfollow Option 2 in this answer;\nmount the new partition on Ubuntu."
+    "text": "df command after mounting the new partition\n\n\nI have been using a dual system of Windows and Ubuntu, and recently running out of storage space on Ubuntu. This caused various issues including occasional failure to recover from sleep.\nSurely, there were already some answers addressing this matter.\nThese were helpful, but an error about swapfile.sys occurred when I tried Shrink Volume in Windows’ Disk Management. It turned out that swapfile.sys (and pagefile.sys) can be disabled and deleted, according to these articles. Not using Windows very often nowadays, I am happy to remove them.\nIf I remembered correctly, I followed these steps to reassign some disk space from Windows to Ubuntu:\n\ndisable and delete pagefile.sys (see steps here);\nnow delete swapfile.sys (refer to here);\nfollow Option 2 in this answer;\nmount the new partition on Ubuntu."
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "blog",
     "section": "",
-    "text": "Relocating Disk Space from Windows to Linux\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\n\n\n\n\n  \n\n\n\n\nIntroducing Bidly: Bridge Hand Recognizer & Solver\n\n\n\n\n\n\n\nbridge\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2023\n\n\n\n\n\n\n  \n\n\n\n\nRule of 5-2-5\n\n\n\n\n\n\n\nself-improvement\n\n\ndo\n\n\nknow-myself\n\n\npsychology\n\n\n\n\n\n\n\n\n\n\n\nJul 31, 2023\n\n\n\n\n\n\n  \n\n\n\n\nLongman Communication 3000 with Examples\n\n\n\n\n\n\n\nwriting\n\n\nfoundation\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHello with Quarto\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Reassign Disk Space from Windows to Linux\n\n\n\n\n\n\n\ndo\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\n\n\n\n\n  \n\n\n\n\nIntroducing Bidly: Bridge Hand Recognizer & Solver\n\n\n\n\n\n\n\nbridge\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2023\n\n\n\n\n\n\n  \n\n\n\n\nRule of 5-2-5\n\n\n\n\n\n\n\nself-improvement\n\n\ndo\n\n\nknow-myself\n\n\npsychology\n\n\n\n\n\n\n\n\n\n\n\nJul 31, 2023\n\n\n\n\n\n\n  \n\n\n\n\nLongman Communication 3000 with Examples\n\n\n\n\n\n\n\nwriting\n\n\nfoundation\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHello with Quarto\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",

@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2024-04-08">
 
-<title>Yiqian Liu - Relocating Disk Space from Windows to Linux</title>
+<title>Yiqian Liu - Reassign Disk Space from Windows to Linux</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,8 +104,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Relocating Disk Space from Windows to Linux</h1>
-                      </div>
+      <h1 class="title">Reassign Disk Space from Windows to Linux</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">do</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -139,10 +142,10 @@ ul.task-list li input[type="checkbox"] {
 <figcaption class="figure-caption">df command after mounting the new partition</figcaption>
 </figure>
 </div>
-<p>I have been using a dual system of Windows and Ubuntu, and recently running out of storage space on Ubuntu. This gave me various issues including occasionally failure to recover from sleep.</p>
-<p>Surely, there was already <a href="https://askubuntu.com/questions/871825/add-more-disk-space-for-linux-from-windows-in-a-dual-bootable-machine">some</a> <a href="https://askubuntu.com/questions/727112/give-more-hard-disk-space-to-ubuntu?rq=1">answers</a> addressing this matter.</p>
-<p>These were useful but an error about <code>swapfile.sys</code> occurred when I tried Shrink Volume in Windows’ Disk Management. It turned out that <code>swapfile.sys</code> (and <code>pagefile.sys</code>) can be disabled and deleted, according to <a href="https://www.makeuseof.com/windows-swapfile-sys-guide/">these</a> <a href="https://www.makeuseof.com/windows-pagefile-sys-guide/">articles</a>. Not using Windows very often nowadays, I am happy to remove them.</p>
-<p>If I remembered correctly, I followed these steps to relocate some disk space from Windows to Ubuntu:</p>
+<p>I have been using a dual system of Windows and Ubuntu, and recently running out of storage space on Ubuntu. This caused various issues including occasional failure to recover from sleep.</p>
+<p>Surely, there were already <a href="https://askubuntu.com/questions/871825/add-more-disk-space-for-linux-from-windows-in-a-dual-bootable-machine">some</a> <a href="https://askubuntu.com/questions/727112/give-more-hard-disk-space-to-ubuntu?rq=1">answers</a> addressing this matter.</p>
+<p>These were helpful, but an error about <code>swapfile.sys</code> occurred when I tried Shrink Volume in Windows’ Disk Management. It turned out that <code>swapfile.sys</code> (and <code>pagefile.sys</code>) can be disabled and deleted, according to <a href="https://www.makeuseof.com/windows-swapfile-sys-guide/">these</a> <a href="https://www.makeuseof.com/windows-pagefile-sys-guide/">articles</a>. Not using Windows very often nowadays, I am happy to remove them.</p>
+<p>If I remembered correctly, I followed these steps to reassign some disk space from Windows to Ubuntu:</p>
 <ol type="1">
 <li>disable and delete <code>pagefile.sys</code> (<a href="https://www.makeuseof.com/windows-pagefile-sys-guide/#:~:text=How%20to%20Delete%20Pagefile.sys">see steps here</a>);</li>
 <li>now delete <code>swapfile.sys</code> (<a href="https://www.makeuseof.com/windows-swapfile-sys-guide/#:~:text=How%20to%20Delete%20Swapfile.sys">refer to here</a>);</li>
