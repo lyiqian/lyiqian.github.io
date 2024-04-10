@@ -1,7 +1,7 @@
 ---
-title: "Relocating Disk Space from Windows to Linux"
+title: "Reassign Disk Space from Windows to Linux"
 date: "2024-04-08"
-categories: []
+categories: [do]
 
 image: diskfree.png
 ---
@@ -10,19 +10,19 @@ image: diskfree.png
 
 I have been using a dual system of Windows and Ubuntu, 
 and recently running out of storage space on Ubuntu.
-This gave me various issues including occasionally failure to recover from sleep.
+This caused various issues including occasional failure to recover from sleep.
 
-Surely, there was already
+Surely, there were already
 [some](https://askubuntu.com/questions/871825/add-more-disk-space-for-linux-from-windows-in-a-dual-bootable-machine)
 [answers](https://askubuntu.com/questions/727112/give-more-hard-disk-space-to-ubuntu?rq=1)
 addressing this matter.
 
-These were useful but an error about `swapfile.sys` occurred when I tried Shrink Volume in Windows' Disk Management.
+These were helpful, but an error about `swapfile.sys` occurred when I tried Shrink Volume in Windows' Disk Management.
 It turned out that `swapfile.sys` (and `pagefile.sys`) can be disabled and deleted, according to
 [these](https://www.makeuseof.com/windows-swapfile-sys-guide/)
 [articles](https://www.makeuseof.com/windows-pagefile-sys-guide/). Not using Windows very often nowadays, I am happy to remove them.
 
-If I remembered correctly, I followed these steps to relocate some disk space from Windows to Ubuntu:
+If I remembered correctly, I followed these steps to reassign some disk space from Windows to Ubuntu:
 
 1. disable and delete `pagefile.sys` ([see steps here](https://www.makeuseof.com/windows-pagefile-sys-guide/#:~:text=How%20to%20Delete%20Pagefile.sys));
 2. now delete `swapfile.sys` ([refer to here](https://www.makeuseof.com/windows-swapfile-sys-guide/#:~:text=How%20to%20Delete%20Swapfile.sys));
