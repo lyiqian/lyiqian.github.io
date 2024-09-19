@@ -19,6 +19,4 @@ format:
   html:
     theme: cosmo
     css: styles.css
-
-
-
+    reference-location: margin
