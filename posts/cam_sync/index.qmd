@@ -1,0 +1,53 @@
+---
+title: "Camera Synchronization"
+date: "2024-09-22"
+categories: [do, robotics]
+
+# image: diskfree.png
+---
+
+<!-- TODO ![wires for master/slave sync](wires.png) -->
+
+A binocular vision system has two eyes. In robotics domain, this means two cameras.
+An ideal binocular system should get visual input from both eyes at the same time, with 0 ms time difference.
+In other words, the triggers of the two cameras should be synchronized.
+^[This is especially important when the scene being captured has dynamic or fast-moving objects.]
+
+Before talking about camera synchronization, we need to understand two ways of triggering a camera: software and hardware.
+The software trigger is straight-forward.
+Just as one could send an API command to adjust the exposure time, a trigger API will trigger a camera.
+
+The hardware trigger is more advanced and not all cameras support it.
+A camera supporting hardware trigger has an additional interface than the typical USB socket.
+This interface (e.g. @fig-interfaces) typically has multiple pins ready for input and/or output voltage signals.
+^[I believed hardware trigger was named due to these voltage signals since they are very low-level.]
+One of the pins is responsible for trigger input.
+If you connect a wire to this pin and send in a voltage signal, it will trigger the camera.
+Another common pin is for flash output which can send out a voltage signal to an external flashlight.
+
+![An interface for hardware trigger etc.](interfaces.jpg){#fig-interfaces}
+
+Corresponding to software and hardware triggers, two types of synchronization exists.
+Again, software sync is simpler, which only requires calling trigger APIs as simultaneously as possible.
+As one can expect, software sync is not so precise (>10ms).
+
+Hardware sync takes advantage of hardware triggers.
+Traditional hardware sync needs an extra device sending voltage signals to cameras' hardware trigger pins.
+If, like me, you did not have this device, you could still use a nice trick involving the **flash output pin**
+to achieve hardware sync, called **master/slave sync** in this case.
+Here are the steps for wiring etc:
+
+1. Connect both cameras to computer via USB and set their trigger modes to hardware;
+2. Prepare three wires and choose one camera as the master;
+3. Connect one wire to the master's flash output pin;
+4. Connect one wire to each camera's trigger input pin;
+5. Connect or solder the other ends of the three wires.
+
+As some might have guessed, now when you send a flash API command to the master camera,
+both cameras will be hardware triggered. I would leave to the readers why and how this worked.
+
+
+### Useful Documentations
+https://en.ids-imaging.com/techtipp-details/items/app-note-synchronizing-image-acquisition.html
+
+https://www.1stvision.com/cameras/IDS/IDS-manuals/uEye_Manual/hw_grundlagen_camerasync.html
