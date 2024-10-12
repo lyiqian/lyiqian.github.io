@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/cam_sync/index.html",
       "/posts/dualsys_reloc_disk/index.html",
       "/posts/intro_bidly/index.html",
       "/posts/rule525/index.html",
