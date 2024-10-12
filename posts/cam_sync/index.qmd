@@ -1,12 +1,12 @@
 ---
 title: "Camera Synchronization"
-date: "2024-09-22"
+date: "2024-10-12"
 categories: [do, robotics]
 
-# image: diskfree.png
+image: masterslave.png
 ---
 
-<!-- TODO ![wires for master/slave sync](wires.png) -->
+![Master-slave camera synchronization ([source](https://www.1stvision.com/cameras/IDS/IDS-manuals/uEye_Manual/hw_grundlagen_camerasync.html))](masterslave.png)
 
 A binocular vision system has two eyes. In robotics domain, this means two cameras.
 An ideal binocular system should get visual input from both eyes at the same time, with 0 ms time difference.
