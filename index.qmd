@@ -1,6 +1,6 @@
 ---
 title: "Yiqian Liu"
-image: static/img/profile.jpg  # TODO
+image: static/img/profile-v2-selfie.jpg
 about:
   template: trestles
   links:
@@ -26,7 +26,7 @@ I am interested in visual stuff, including (first seen first)
 - data visualization (e.g. isolines),
 - photography,
 - computer graphics, and
-- computer vision (e.g. object detection).
+- computer vision (e.g. 3D understanding).
 
 I play bridge.
 
