@@ -20,16 +20,10 @@ about:
 comments: false
 ---
 
-I am interested in visual stuff, including (first seen first)
+I am a 4th year PhD student in the Department of Electrical Engineering and Computer Science at York University. My research interests are in active vision and 3D understanding.
 
-- geometry,
-- data visualization (e.g. isolines),
-- photography,
-- computer graphics, and
-- computer vision (e.g. 3D understanding).
-
-I play bridge.
-
+### Latest News
+[Sep 2026] 🎉 Our paper on pictorial depth cue understanding is accepted to ECCV 2026! Check out the [Project page](https://github.com/lyiqian/o3-d), [Dataset](https://huggingface.co/datasets/liuyiqian/O3-D), or [Paper (arXiv)](https://arxiv.org/abs/2607.01503)
 
 # Experience
 **Research Assistant** $\cdot$ Tsotsos Lab $\cdot$ 2023 - Present
@@ -54,3 +48,15 @@ I play bridge.
 **BSc in Mathematics** $\cdot$ Shandong University
 
 2009 - 2013 $\cdot$ Jinan, China
+
+
+# More about me
+I am interested in visual stuff, including (first seen first)
+
+- geometry,
+- data visualization (e.g. isolines),
+- photography,
+- computer graphics, and
+- computer vision (e.g. 3D understanding).
+
+I play bridge.
