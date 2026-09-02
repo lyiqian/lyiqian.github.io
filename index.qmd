@@ -31,19 +31,26 @@ I am interested in visual stuff, including (first seen first)
 I play bridge.
 
 
+# Experience
+**Research Assistant** $\cdot$ Tsotsos Lab $\cdot$ 2023 - Present
+
+**Data Scientist** $\cdot$ NuData Security $\cdot$ 2022 - 2023
+
+**Data Scientist** $\cdot$ Fortinet $\cdot$ 2017 - 2022
+
+**Software Developer** $\cdot$ IBM $\cdot$ 2015
+
+
 # Education
+**PhD in EECS** $\cdot$ York University
+
+2023 - 2028 (expected) $\cdot$ Toronto, Canada
+
+
 **MSc in Computer Science** $\cdot$ University of New Brunswick
 
-Sep 2013 - May 2016 $\cdot$ Fredericton, Canada
+2013 - 2016 $\cdot$ Fredericton, Canada
 
 **BSc in Mathematics** $\cdot$ Shandong University
 
-Sep 2009 - Jun 2013 $\cdot$ Jinan, China
-
-
-# Experience
-**Data Scientist** $\cdot$ NuData Security $\cdot$ Mar 2022 - Jun 2023
-
-**Data Scientist** $\cdot$ Fortinet $\cdot$ May 2017 - Feb 2022
-
-**Software Developer** $\cdot$ IBM $\cdot$ Jan 2015 - Aug 2015
+2009 - 2013 $\cdot$ Jinan, China
