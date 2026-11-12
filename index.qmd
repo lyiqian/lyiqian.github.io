@@ -1,6 +1,6 @@
 ---
 title: "Yiqian Liu"
-image: static/img/profile-v2-selfie.jpg
+image: static/img/profile-v3.jpg
 about:
   template: trestles
   links:
